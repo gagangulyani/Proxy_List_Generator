@@ -9,6 +9,10 @@
 
 ## How it Works?
 	It scraps [free-proxy-list.net] and extracts all the IPs and Port Numbers...
+	
+## modules used:
+	1. requests is being used for getting html content 
+	2. BeautifulSoup is being used for extracting the content
 
 ## Usage:
 
