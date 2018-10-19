@@ -14,9 +14,8 @@
 	1. requests is being used for getting html content 
 	2. BeautifulSoup is being used for extracting the content
 
-## Usage:
-
-    Just call the function Proxy_List() in your python code.
+## Usage
+    Just import proxy_get in your code and call the function Proxy_List() for list of proxies
 
 #### On Success:
     Returns List of proxies
