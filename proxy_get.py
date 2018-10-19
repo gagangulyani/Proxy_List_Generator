@@ -33,6 +33,7 @@ def Proxy_List():
 
     if page.status_code!=200:
         print ("\nSomething Went Wrong while Getting Proxy List!\n")
+        return None
     
     soup = bs(page.text,'html.parser') #creating soup object 
     c=1 # for skipping few irrelevant stuff
