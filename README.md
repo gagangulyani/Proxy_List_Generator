@@ -1,5 +1,5 @@
 # Proxy List Generator
-##### The only module you will ever need for getting list of proxies..
+##### Scraps proxylist and gives a list of proxies along with port numbers..
 
 ## Highly Recommended for:
     1. Web Scrapers
