@@ -4,15 +4,16 @@ list of proxies along with their port numbers,
 """
 
 try:
-	import requests
-	# for getting html of free-proxy-list.net
+    import requests
+    # for getting html of free-proxy-list.net
 except ImportError:
-	print("\n\"requests\" is required for getting proxy list")
+    print("\n\"requests\" is required for getting proxy list")
 try:
-	from bs4 import BeautifulSoup as bs
-	# for scrapping list from html
+    from bs4 import BeautifulSoup as bs
+    # for scrapping list from html
 except ImportError:
-	print("\n\"bs4\" is required for getting proxy list")
+    print("\n\"bs4\" is required for getting proxy list")
+    exit()
 
 def Proxy_List():
     """
