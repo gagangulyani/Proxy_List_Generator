@@ -10,20 +10,30 @@
 ## How it Works?
 	It scraps [free-proxy-list.net] and extracts all the IPs and Port Numbers...
 	
-## modules used:
-	1. requests is being used for getting html content 
-	2. BeautifulSoup is being used for extracting the content
+## requirements:
+	1. requests
+	2. BeautifulSoup
+	3. html5lib
+	
+### run the following command before executing the script for the first time
+	pip install requests BeautifulSoup4 html5lib
+	
+#### In case of the following error:
+	AttributeError: module 'html5lib.treebuilders' has no attribute '_base'
+#### run the following command 
+	pip install --upgrade beautifulsoup4
+	pip install --upgrade html5lib
 
 ## Usage
     Just import proxy_get in your code and call the function Proxy_List() for list of proxies
 
 #### On Success:
-    Returns List of proxies
+    returns List of proxies
     example:
       [["192.168.1.1":"8080"],["localhost","8080"]]
     
 #### On Failure:
-    Returns None
+    returns None
     
 ### Important:
 
@@ -31,3 +41,7 @@
     
     If you have any ideas or suggestions regarding the latter,mail me.
     (Email: gagangulyanig@gmail.com)
+
+### Reference
+	1. beautifulsoup, html5lib: module object has no attribute _base
+	https://stackoverflow.com/questions/38447738/beautifulsoup-html5lib-module-object-has-no-attribute-base
