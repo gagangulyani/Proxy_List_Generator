@@ -1,5 +1,5 @@
 # Proxy List Generator
-##### Scraps proxylist and gives a list of proxies along with port numbers..
+### a simple python script which scraps free-proxy-list.net for proxies..
 
 ## Highly Recommended for:
     1. Web Scrapers
@@ -8,7 +8,7 @@
     4. People who want list of proxies in Bulk
 
 ## How it Works?
-	It scraps [free-proxy-list.net] and extracts all the IPs and Port Numbers...
+	It scraps [free-proxy-list.net] and extracts all the IP Addresses, Port Numbers,Country Codes etc, which are available on the home page accessible via pagination.
 	
 ## requirements:
 	1. requests
