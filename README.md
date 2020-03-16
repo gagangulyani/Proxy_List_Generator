@@ -15,8 +15,12 @@
 	2. BeautifulSoup
 	3. html5lib
 	
-### run the following command before executing the script for the first time
-	pip install requests BeautifulSoup4 html5lib
+## Preparing for running the Script
+### run the following commands before executing the script
+#### for installing requirements for running the script
+	git clone https://github.com/gagangulyani/Proxy_List_Generator.git
+	cd Proxy_List_Generator
+	pip install -r requirements.txt
 	
 #### In case of the following error:
 	AttributeError: module 'html5lib.treebuilders' has no attribute '_base'
@@ -25,8 +29,13 @@
 	pip install --upgrade beautifulsoup4
 	pip install --upgrade html5lib
 
-## Usage
-    Just import proxy_get in your code and call the Proxy_List() function
+## Running the Script [Option #1]
++ *copy paste* or *move* **proxy_get.py** file in Current Working Directory of your project
++ `import proxy_get` in your code and call the `Proxy_List()` function
+    
+## Running the Script [Option #2]
+	python proxy_get.py
+  
 
 #### On Success:
     Output will be displayed only is script is executed directly (without importing it)
@@ -57,20 +66,23 @@
                     }
                     ...
                 ],
-            "count" : 2
+            "count" : 300
         }    
     
 #### On Failure:
 ##### 1. In case of failure of retrieval of Proxy List from free-proxy-list.net
-    Output:
-        Failed to get Proxy List :(
-    Return:
-        None
+	Output:
+		Failed to get Proxy List :(
+		Try Running the script again..
+		
+	Return:
+		None
 ##### 2. In case of failure Bad Request or Redirection of free-proxy-list.net
-    Output:
-        Something Went Wrong while Getting Proxy List!
-    Return:
-        None
+	Output:
+		Something Went Wrong while Getting Proxy List!
+
+	Return:
+		None
 
 ### Important:
 
