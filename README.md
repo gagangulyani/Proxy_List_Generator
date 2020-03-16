@@ -30,8 +30,9 @@
 	pip install --upgrade html5lib
 
 ## Running the Script [Option #1]
-+ *copy paste* or *move* **proxy_get.py** file in Current Working Directory of your project
-+ `import proxy_get` in your code and call the `Proxy_List()` function
++ *Copy Paste* or *Move* **proxy_get.py** file in Current Working Directory of your project
++ Import `proxy_get` in your code: `from proxy_get import Proxy_List()` 
++ Call the `Proxy_List()` function
     
 ## Running the Script [Option #2]
 	python proxy_get.py
