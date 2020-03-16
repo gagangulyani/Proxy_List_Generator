@@ -31,7 +31,7 @@
 
 ## Running the Script [Option #1]
 + *Copy Paste* or *Move* **proxy_get.py** file in Current Working Directory of your project
-+ Import `proxy_get` in your code: `from proxy_get import Proxy_List()` 
++ Import `proxy_get` in your code: `from proxy_get import Proxy_List`
 + Call the `Proxy_List()` function
     
 ## Running the Script [Option #2]
