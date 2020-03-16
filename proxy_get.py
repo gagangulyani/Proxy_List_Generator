@@ -40,7 +40,7 @@ def Proxy_List():
 
     except:
         # returns None if unable to get source code of site
-        print("\nFailed to get Proxy List :(")
+        print("\nFailed to get Proxy List :(\nTry Running the script again..")
         return None
 
     if page.status_code != 200:
