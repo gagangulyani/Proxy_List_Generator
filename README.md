@@ -1,6 +1,8 @@
 # Proxy List Generator
 ### a simple python script which scraps free-proxy-list.net for proxies..
 
+![Demo](demo.gif)
+
 ## Highly Recommended for:
     1. Web Scrapers
     2. Web Crawlers
